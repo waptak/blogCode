@@ -2,7 +2,7 @@
 
 ### 全局安装hexo-cli
 ``` bash
-$ npm install hexo-cli -g #或使用cnpm
+$ npm install hexo-cli@1.0.4 -g #或使用cnpm
 ```
 
 ### 安装依赖包
