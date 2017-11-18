@@ -48,6 +48,6 @@ $ hexo d #生成部署
 ### 重新发布 
 ``` bash
 $ hexo clean
-# 删除 .deploy_git文件夹
+# 删除 .deploy_git文件夹 
 ```
 
