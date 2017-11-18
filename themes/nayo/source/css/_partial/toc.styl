@@ -1,0 +1,57 @@
+.toc-container
+	display none
+	margin auto 0
+	height 100%	  
+	width  240px
+	overflow auto
+.toc-contents
+	display block
+	color $black
+	padding .2em
+	margin 1em 0
+	font-size 1rem	
+	cursor pointer
+.toc-list
+    list-style-type none	  
+.toc-item 
+	display block	
+	font-size .95rem 
+	max-width 240px
+	font-weight $font-normal
+	color $black
+	margin 6px 0
+	padding 0
+	letter-spacing  1px
+	
+.toc-item 
+	&:hover
+		cursor pointer
+		color $thr-clr 		
+		 
+.toc-subitem 	
+	display block
+	max-width 240px
+	font-size .85rem	
+	margin 6px 0	
+	color gray
+	font-weight $font-normal
+
+.toc-subitem
+	&:hover
+		cursor pointer
+		color  $thr-clr 
+		
+
+//script CSS
+.toc-fixed	
+	position fixed 
+	width 90%
+	top 0 
+.toc-active
+	border-right 1px solid $thr-clr
+	color $thr-clr 
+	
+.toc-sub-active
+	border-right 1px solid $thr-clr
+	color $thr-clr 
+	

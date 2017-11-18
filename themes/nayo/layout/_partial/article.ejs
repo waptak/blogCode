@@ -1,0 +1,10 @@
+<article class="article fadeIn">	
+
+    <%- partial('_partial/_article/title',{post:post}) %>      
+    <%- partial('_partial/_article/excerpt',{post:post}) %>		
+	<%- partial('_partial/meta',{post:post}) %>	
+
+   
+  	<a class="article-readmore" href="<%- url_for(post.path) %>"><%= __('Read_more') %></a> 		
+	
+</article>

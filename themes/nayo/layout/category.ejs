@@ -1,0 +1,49 @@
+<section class="block fadeIn">
+
+  <% var title %>
+
+  <% if( is_category()){ %>
+
+  	<% title = page.category %>
+  	<span class="page-title"><%= title %></span>		
+  	
+	 <% page.posts.each(function (post) { %>    	
+    <%- partial('_partial/article',{ post:post}) %> 
+	 <% }) %>
+
+  	%>
+
+  <%} else {%>	  
+
+  <% title = __('Page.Categories')%>
+  <span class="page-title"><%= title %></span>	
+
+    <% site.categories.sort('length',-1).forEach( function ( category ){%>
+    <div class="category-item slideDownMin">
+    
+      <span class="iconfont icon-category"></span>
+
+      <a class="category-name" href="<%- url_for(category.path)%>"> <%- category.name %>
+      <span class="meta-count"><%- category.length %></span>  
+      </a>
+
+
+      <ul class="category-posts">
+          <% category.posts.each(function (post){ %>      
+              <li class="animation-item category-post-item slideDownMin">
+
+              <time><%= date(post.date, "YYYY/MM/DD") %></time>    
+
+              <a href="<%- url_for(post.path) %>"><%= post.title || __('Untitled') %> </a>                
+
+              </li>
+
+          <% }) %>  
+      </ul>
+   </div>
+    <%}) %>
+  <%}%>
+   </h3>
+
+</section>
+<%- js('js/category.js') %> 

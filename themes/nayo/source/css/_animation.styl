@@ -1,0 +1,304 @@
+
+@keyframes fadeIn
+    from
+      opacity 0     
+    to 
+      opacity 1       
+  
+@-webkit-keyframes fadeIn
+    from
+      opacity 0
+    to 
+      opacity 1      
+
+.fadeIn 
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: fadeIn
+  -webkit-animation-duration 1.2s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+@keyframes fadeOut
+    from
+      opacity 1
+    to 
+      opacity 0
+@-webkit-keyframes fadeOut
+    from
+      opacity 1
+    to 
+      opacity 0     
+
+.fadeOut 
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: fadeOut
+  -webkit-animation-duration 1.4s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+
+
+//slideUp and slideDown
+@keyframes slideUp{
+    0%{
+    -webkit-transform:translateY(0)
+    transform:translateY(0)
+    }
+   100%{
+    -webkit-transform:translateY(-100px)
+    transform:translateY(-100px)
+   }
+}
+    
+
+@-webkit-keyframes slideUp{
+    0%{
+    -webkit-transform:translateY(0)    
+    }
+   100%{
+    -webkit-transform:translateY(-100px)
+   }
+}
+
+
+
+.slideUp
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: slideUp
+  -webkit-animation-duration  .8s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+
+
+
+@keyframes slideDown{
+    0%{
+    -webkit-transform:translateY(-100px)  
+    transform:translateY(-100px)   
+  }
+    100%{
+    -webkit-transform:translateY(0)
+    transform:translateY(0) 
+  }
+}
+@-webkit-keyframes slideDown{
+    0%{
+    -webkit-transform:translateY(-100px)    
+  }
+    100%{
+    -webkit-transform:translateY(0)
+  }
+}   
+
+
+.slideDown
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: slideDown
+  -webkit-animation-duration  .8s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+  
+
+@keyframes slideDownMin{
+    0%{
+    -webkit-transform:translateY(-30px)  
+    transform:translateY(-30px)   
+    opacity .2
+  }
+    100%{
+    -webkit-transform:translateY(0)
+    transform:translateY(0) 
+    opacity 1
+  }
+}
+@-webkit-keyframes slideDownMin{
+    0%{
+    -webkit-transform:translateY(-30px)   
+    opacity .2
+  }
+    100%{
+    -webkit-transform:translateY(0)
+    opacity 1
+  }
+}   
+
+
+.slideDownMin
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: slideDownMin
+  -webkit-animation-duration  .4s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+
+
+
+@keyframes slideLIn{
+    0%{
+    -webkit-transform:translateX(-65px)  
+    transform:translateX(-65px)       
+  }
+    100%{
+    -webkit-transform:translateX(0)
+    transform:translateX(0)  
+  }
+}
+@-webkit-keyframes slideLIn{
+    0%{
+    -webkit-transform:translateX(-65px)    
+  }
+    100%{
+    -webkit-transform:translateX(0)
+  }
+}   
+
+.slideLIn
+  -webkit-animation-name: slideLIn
+  -webkit-animation-duration  .5s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+@keyframes slideRIn{
+    0%{
+    -webkit-transform:translateX(65px)  
+    transform:translateX(65px)   
+  }
+    100%{
+    -webkit-transform:translateX(0)
+    transform:translateX(0) 
+  }
+}
+@-webkit-keyframes slideRIn{
+    0%{
+    -webkit-transform:translateX(65px)    
+  }
+    100%{
+    -webkit-transform:translateX(0)
+  }
+}   
+
+
+.slideRIn 
+  -webkit-animation-name: slideRIn
+  -webkit-animation-duration  .5s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+  
+
+
+
+@keyframes itemLIn{
+    0%{
+    -webkit-transform:translateX(0px)  
+    transform:translateX(0px)   
+  }
+    100%{
+    -webkit-transform:translateX(10px)
+    transform:translateX(10px) 
+  }
+}
+@-webkit-keyframes itemLIn{
+    0%{
+    -webkit-transform:translateX(0px)    
+  }
+    100%{
+    -webkit-transform:translateX(10px)
+  }
+}   
+
+.itemLIn 
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: itemLIn
+  -webkit-animation-duration  .5s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+  
+
+
+@keyframes itemRIn{
+    0%{
+    -webkit-transform:translateX(10px)  
+    transform:translateX(10px)   
+  }
+    100%{
+    -webkit-transform:translateX(0px)
+    transform:translateX(0px) 
+  }
+}
+@-webkit-keyframes itemRIn{
+    0%{
+    -webkit-transform:translateX(10px)    
+  }
+    100%{
+    -webkit-transform:translateX(0px)
+  }
+}   
+
+.itemRIn 
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: itemRIn
+  -webkit-animation-duration  .5s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+
+
+//
+@keyframes menuSlideIn{
+    0%{
+    -webkit-transform:translateX(-200px)  
+    transform:translateX(-200px)       
+  }
+    100%{
+    -webkit-transform:translateX(0)
+    transform:translateX(0)  
+  }
+}
+@-webkit-keyframes menuSlideIn{
+    0%{
+    -webkit-transform:translateX(-200px)    
+  }
+    100%{
+    -webkit-transform:translateX(0)
+  }
+}   
+
+.menuSlideIn
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: menuSlideIn
+  -webkit-animation-duration  .5s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s
+  
+
+
+@keyframes menuSlideOut{
+    0%{
+    -webkit-transform:translateX(0)  
+    transform:translateX(0)       
+  }
+    100%{
+    -webkit-transform:translateX(-200px)
+    transform:translateX(-200px)  
+  }
+}
+@-webkit-keyframes menuSlideOut{
+    0%{
+    -webkit-transform:translateX(0)    
+  }
+    100%{
+    -webkit-transform:translateX(-200px)
+  }
+}   
+
+.menuSlideOut
+  -webkit-animation-fill-mode: forwards
+  -webkit-animation-name: menuSlideOut
+  -webkit-animation-duration  .4s  
+  -webkit-animation-iteration-count 1 
+  -webkit-animation-delay 0s

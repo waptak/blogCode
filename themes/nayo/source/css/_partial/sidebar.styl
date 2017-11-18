@@ -1,0 +1,106 @@
+//widget
+.widget 
+	@extend $block	
+	text-align center
+.widget-title
+	@extend $close
+	width auto	
+	padding 1em 0
+	display inline-block	
+	font-size 1.1em
+	margin-bottom 1em
+	position relative
+	border-bottom 1px solid $line-clr
+	color gray
+	&:hover
+		color $main-clr 			
+
+//pofile
+.pofile
+	padding 0.8em	
+	width 100%
+.avatar
+	margin 0 auto
+	padding 0 auto
+	display block
+	width 80%	
+	border-radius 10px	
+.location
+	display block
+	font-size 12px
+	color gray		
+.descrption
+	color gray	
+.social
+	margin 1em 0
+.count	
+	overflow hidden	
+	div
+		text-align center
+		width 50%
+		float left
+.count-item	
+	display inline
+	&:hover
+		color $thr-clr
+//search widget
+.search-widget	
+	margin 2.8rem auto
+	background-color $search-clr
+	width 72%
+	padding 6px
+	height 20px
+	border-radius 8px
+	border 1px solid $border-clr
+	text-align center
+	cursor pointer
+	&:hover		
+		color $thr-clr
+	
+.search-word
+	font-size 16px
+	color gray
+	&:hover		
+		color $thr-clr
+
+
+
+//recent post
+.recent-post
+	position relative 
+	display block
+	margin 0.8em 0
+	padding 0.1rem
+	font-size 15px
+	width auto
+	&:hover
+		color $thr-clr
+	
+	
+
+//categories tagcloud
+.meta-item
+	@extend $tags	
+	&:hover		
+		color $main-clr		
+		border 1px solid $main-clr  	
+
+.meta-count	
+	font-size .4em
+	padding-bottom .6em
+	&:hover		
+		color $main-clr 		
+
+
+//link
+.link-item
+	font-size .8rem
+	border-radius 10px		
+	
+.link-item a	
+	text-wrap normal	
+	position relative
+	@extend $close
+	padding .4em 0	
+	&:hover
+		color $main-clr 

@@ -1,0 +1,72 @@
+.search-mask
+	position fixed
+	top 0
+	left 0
+	width 100%
+	height 100%
+	z-index 998
+	background rgba(0,0,0,0.3)
+
+.search-container
+	position fixed
+	left 50%
+	top 80px
+	z-index 999
+	width 700px
+	max-height 600px
+	margin-left -350px
+	overflow-x hidden
+	overflow-y auto
+	border-radius 8px
+	background  $white
+
+.search-input	
+	margin 0 auto
+	padding 14px 	
+	font-size 16px
+	width 90%
+	height 28px
+	border none
+	border-bottom 1px solid $line-clr 
+	outline none     
+.search-cancel
+	position absolute
+	top 14px
+	width 18px
+	&:hover
+		color $thr-clr
+
+.search-result
+	padding 12px
+	margin 3px 0	
+	overflow hidden
+
+
+.search-item
+	margin 10px 0 12px 0	
+	border-bottom 1px solid $line-clr 	
+.search-title
+	text-align left
+	padding-left 12px
+	font-size 16px
+	&:link,&:visited,&:active
+		color rgba(0,0,0,1)
+	&:hover
+		color $thr-clr
+		
+.search-content	
+	padding 12px
+	margin 2px 0	
+	overflow hidden
+	white-space nowrap
+	text-overflow ellipsis
+	font-size 13px
+	color rgba(0,0,0,.7)
+.search-empty
+	margin 10px 0 12px 0	
+	font-size 16px
+	text-align center
+	&:hover
+		color $thr-clr
+.search-keyword
+	color $thr-clr	

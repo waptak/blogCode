@@ -1,0 +1,124 @@
+.post 
+  margin 0 auto 
+  overflow hidden  
+  padding-top .4em    
+
+//post/head.ejs  
+.post-head
+  border-bottom 1px solid $line-clr 
+  
+.post-title 
+  display block
+  font-size 2.8rem
+  font-family $post-title-font
+  margin .5em 0 1em 
+.post-info
+  width 100%
+  margin 1em 0   
+  font-family $time-font
+.post-time,.post-words,.post-visitor
+  font-size 1.2rem 
+  opacity .6
+  font-style italic 
+  padding-left .12em 
+  
+.post-content    
+  margin-top 1rem
+  margin-bottom 5rem
+.post-content a
+  @extend $close
+  color $thr-clr  
+  position relative   
+  &:hover    
+    color $sub-clr 
+ 
+
+//post/mob_share.ejs
+.-mob-share-list
+  text-align right
+  clear both
+  width 100%
+  margin 1rem 0
+.-mob-share-list span
+  padding .2rem 
+  margin 1rem 0
+  border 1px solid gray
+  border-radius 10px
+  cursor pointer
+  opacity .7
+  &:hover
+    color $thr-clr 
+    border 1px solid $thr-clr     
+       
+// post/nav.ejs 
+.nav    
+    margin 2em 0
+    padding 1em .8em
+    font-size 1.2em   
+    clear both    
+    border-top 1px solid #eee
+.nav-prev
+    float left  
+.nav-next
+    float right  
+
+.nav-link   
+    font-size 1em
+    &:hover
+      color $thr-clr
+   
+
+// post/reward
+.reward-icon 
+  margin .4em auto
+  text-align center
+  cursor pointer
+  width 40px 
+  
+.reward
+  margin-bottom 2em
+  display flex
+  justify-content center
+
+.reward-img-left,.reward-img-right
+  margin 1em .5em  
+  width 280px
+  height auto
+  display none
+.reward-brg    
+  @extend $img_radius 
+  display block
+  width 280px
+  height 280px
+  overflow hidden
+  background-size cover
+  background-position center
+.reward-img
+  visibility hidden
+  width 100%
+  height 100%
+  
+
+// post/widgets.ejs
+.post-widget
+  padding 2em 0
+  text-align center
+.post-widget-title 
+  display block
+  font-size 16px 
+  margin-bottom 1em
+  &:hover 
+     color $thr-clr
+  
+
+
+//meta
+.meta
+    margin .2em 0
+    width 100%
+.category-link,.tag-link    
+    @extend $close
+    position relative
+    padding .2em 0
+    &:hover 
+     color $sub-clr  

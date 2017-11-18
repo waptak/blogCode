@@ -1,0 +1,16 @@
+<div class="widget" >
+	
+<span class="widget-title"><%= __('Sidebar.FriendLinks') %></span>
+
+	<div>
+		<% if (theme.link) {%>	
+			<ul class="ul links">
+				<% for (i in theme.link) {%>
+					<li class="li link-item slideDownMin">
+						<a href="<%- url_for( theme.link[i])%>" target="_blank" title="<%- i %>"><%- i %></a>
+					</li>
+				<% } %>
+			</ul>
+		<%}%>
+	</div>
+</div>

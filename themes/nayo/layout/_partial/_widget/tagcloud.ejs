@@ -1,0 +1,16 @@
+<% if (site.tags.length){ %>
+  <div class="widget">
+
+     <a href="<%- url_for(theme.menu.tags) %>"><span class="widget-title"><%=  __('Sidebar.TagCloud') %></span></a>
+
+     	<div>
+       <% site.tags.sort('length',-1).each( function (tag){%>
+
+        	<a class="meta-item slideDownMin" href="<%- url_for(tag.path)%>"><%- tag.name %>
+        	<span class="meta-count"><%- tag.length %></span>
+        	</a>    		
+    	
+	   <% })%>
+       </div>
+  </div>
+<% } %>

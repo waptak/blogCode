@@ -1,0 +1,58 @@
+$block
+  heigth auto
+  margin 1em 0
+  padding  .6em
+  background $block-bgr  
+.block
+  @extend $block
+$tags
+  margin 3px 2px
+  padding 0 12px
+  display inline-block
+  line-height 25px      
+  font-family $tag-font
+  border 1px solid  $border-clr 
+  border-radius 999em 
+  &:hover
+    opacity 1
+    background rgba(255,255,255,.2)
+    color $main-clr
+    border 1px solid $main-clr    
+$radius
+  border-radius 12px	
+$img_radius 
+  border-radius 5px
+ 
+$spread
+   @media mq-normal       
+      &::after  
+        content " " 
+        width 0
+        height 2px
+        background $main-clr
+        position absolute
+        top 99%
+        left 50%   
+        transition .2s 
+      &:hover
+        color $main-clr        
+      &:hover:after
+        left 0%
+        width 100%
+$close
+   position relative
+   @media mq-normal  
+      &::after
+        content " " 
+        width 100%
+        height 0px
+        background $white
+        position absolute
+        top 99% 
+        left 0%
+        transition .3s
+      &:hover:after
+        background $main-clr
+        height 2px
+        top 96%
+        left 0%

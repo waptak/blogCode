@@ -1,0 +1,20 @@
+<% if (site.categories.length){ %>
+<div class="widget">	
+    <a href="<%- url_for(theme.menu.categories) %>"><span class="widget-title"><%= __('Sidebar.Categories') %></span></a>
+ 	
+
+     <div>
+      <% site.categories.sort('length',-1).each (function (category){%>   	
+      	
+
+      <a class="meta-item slideDownMin" href="<%- url_for(category.path) %>"><%- category.name %>
+      <span class="meta-count"><%- category.length %></span>	
+      	
+      	</a>
+      <%})%>
+
+     </div>
+
+</div>
+<% } %>
+

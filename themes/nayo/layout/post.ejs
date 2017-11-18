@@ -1,0 +1,25 @@
+<article class="post slideLIn">
+
+<%- partial('_partial/_post/head',{post: page}) %> 
+
+
+  <div class="post-content">
+   <% if (page.photos && page.photos.length){ %>
+        <% for( i in page.photos){%>
+          <img src="<%- url_for(page.photos[i]) %>">             
+        <%}%>
+    <%}%>
+    <%- page.content %>    
+
+  </div>  
+ 
+<%- partial('_partial/meta',{post: page}) %> 
+<%- partial('_partial/_post/mob_share') %>
+<%- partial('_partial/_post/nav',{post: page}) %> 
+<%- partial('_partial/_post/reward') %> 
+<%- partial('_partial/_post/comment') %>
+<%- partial('_partial/_post/wdigets',{post: page}) %> 
+</article>
+<%- partial('_partial/_post/toc',{post:page}) %>
+
+<%- js('js/post') %>

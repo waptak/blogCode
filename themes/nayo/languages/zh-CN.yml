@@ -1,0 +1,36 @@
+Menu:
+  home: 首页
+  categories: 分类
+  tags: 标签
+  archives: 归档
+  about: 关于
+Page:
+  Archives: 归档
+  Categories: 分类
+  Tags: 标签
+  About: 关于
+Sidebar:
+  Posts: 文章
+  Categories: 分类
+  Recents: 最近文章
+  TagCloud: 标签
+  FriendLinks: 友链
+
+Paginator: 
+  Prev: 上一页
+  Next: 下一页
+
+Contents: 目录
+Read_more: 阅读更多
+Untitled: 无标题
+
+
+Comment:
+  Nick_holder: 昵称
+  Mail_holder: 邮箱
+  Comment_holder: 说点什么吧...
+
+Search:
+  Sidebar_words: 搜索
+  input_words: 站内搜索
+  Search_nonthing: 什么都没找到呀!

@@ -1,0 +1,37 @@
+<% var profile = theme.profile %>
+
+<div class="widget profile">
+
+		<a  href="<%= profile.avatar %>">
+		<img class="avatar" src="<%= profile.avatar %>" alt="No Avatar">
+		</a>
+
+			
+		<h3><%= profile.author%></h3>
+		
+		<h4 class="descrption slideDownMin"><%= profile.descrption%></h4>
+	
+		<% if(profile.city || profile.country){ %>
+		<span class="location iconfont icon-location slideDownMin">
+		 <%- profile.city%>
+		 <%- profile.country%>
+		 </span>	
+		<%}%>
+
+		<div class="social">
+   		<% for (i in theme.social) { %>    	
+		<a href="<%- url_for(theme.social[i]) %>" class="iconfont icon-<%-i%>" target="_blank" title="<%- i %>"></a>
+	    <% } %>
+    	</div>
+			
+		<div class="count">
+			<a href="<%- url_for('archives') %>">	
+			<div class="count-item">				
+			<h4 class="slideDownMin"> <%= site.posts.length %> </h4> <h4> <%= __('Sidebar.Posts') %></h4></div></a>	
+
+			<a href="<%- url_for('categories') %>">	
+			<div class="count-item">
+			<h4 class="slideDownMin"> <%= site.categories.length %></h4> <h4> <%=  __('Sidebar.Categories') %></h4></div></a>	
+
+		</div>
+</div>

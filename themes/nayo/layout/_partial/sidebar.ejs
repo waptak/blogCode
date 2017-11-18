@@ -1,0 +1,9 @@
+ <% if( theme.sidebar.enable){%>
+
+ <aside id="sidebar" class="fadeIn">
+  <% theme.widgets.forEach(function(widget){ %>
+    <%- partial('_partial/_widget/' + widget) %>
+  <% }) %>
+</aside>
+
+<% } %>

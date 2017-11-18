@@ -1,0 +1,28 @@
+<div class="post-head">
+
+	<span class="post-title">	
+		<%= page.title|| __('Untitled') %>
+	</span>
+
+
+	<div class="post-info">
+
+		<time class="post-time"><span class="iconfont icon-date"></span>
+		<%- date(page.date, "YYYY/MM/DD HH:mm:ss")%> 	
+		</time>
+
+
+		<%  var length = page.content.replace(/<\/?[^>]*>/g, "").replace(/ /g,'').length;%>
+
+		<span class="post-words"><span class="iconfont icon-words"></span>
+		<%= length %>
+		</span>
+
+
+		<% if(theme.leancloud.enable && theme.leancloud.app_id && theme.leancloud.app_key ) {%>
+		<%- partial('_partial/_post/leancloud') %> 	
+		<%}%>	
+		
+	</div>
+
+</div>

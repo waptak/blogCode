@@ -1,0 +1,19 @@
+<% if(theme.reward.enable){  %>
+
+<% var reward = theme.reward %>
+
+<div class="reward-icon iconfont icon-reward"></div>
+<div class="reward">
+
+	<div class="reward-img-left">
+		<a  class="reward-brg" style="background-image:url(<%= reward.pic1 %>)">
+  			 <img class="reward-img" src="<%= reward.pic1 %>" alt="none">
+		</a>
+	</div>
+	<div class="reward-img-right">
+		<a  class="reward-brg" style="background-image:url(<%= reward.pic2 %>)">
+		   <img class="reward-img"  src="<%= reward.pic2 %>" alt="none">
+		</a>
+	</div>
+</div>
+<% } %>

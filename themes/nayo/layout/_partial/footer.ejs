@@ -1,0 +1,40 @@
+<% var year = date(new Date(), 'YYYY') %>
+
+<footer id="footer">
+
+    <% if (theme.busuanzi){%>
+   	 <div class="foot-busuanzi">	
+
+     <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+   
+     <span class="iconfont icon-pv"></span>
+     <span id="busuanzi_value_site_pv"></span>
+ 
+     <span class="iconfont icon-uv"></span>
+     <span id="busuanzi_value_site_uv"></span>
+
+   	 </div>
+    <% } %>
+
+    	
+	<div class="foot-link">
+	
+	 <a href="http://hexo.io/" target="_blank">Hexo</a>
+
+	 <%= __('Theme') %>
+
+	 <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank">Nayo</a> 
+
+	 </div>	
+
+	 <div class="foot-copyright">
+	  &copy; 
+	 <% if (year!='2017'){ %>
+	 	2017-
+	 <% } %>
+
+	 <%= year %>
+	 <%= theme.profile.author || 'Synch' %>	 
+
+	 </div>
+</footer>

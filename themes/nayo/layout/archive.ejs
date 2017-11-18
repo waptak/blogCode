@@ -1,0 +1,33 @@
+<section class="block fadeIn">
+
+  <span class="page-title"><%= __('Page.Archives') %></span> 
+
+   
+    <% var last %> 
+    <% page.posts.each(function (post) { %>
+      <% var year = post.date.year() %>
+
+        <%if(last != year ){%>   
+
+      		<h3 class="archive-year"><%= year %></h3>          
+
+      	  <% last = year %>	  
+
+		    <%}%>
+
+
+      <div class="animation-item  archive-item slideDownMin">   	
+
+        <span class="left archive-date"> <%= date(post.date, "MM-DD") %></span>   
+
+        <% var title = truncate(post.title, {length:84}) %>
+
+        <a class="left archive-title " href="<%- url_for(post.path) %>"><%= title || __('Untitled')%></a>
+
+      </div>
+
+    <% }) %>
+
+</section>
+
+<%- partial('_partial/paginator') %>

@@ -1,0 +1,116 @@
+#header nav
+menu:
+  home: /
+  archives: archives
+  #categories: categories  
+  #tags: tags
+  #about: about
+
+# site color [blue black red]
+# hope you can submit your color code to me!
+color: black
+
+#site title
+title: Biake's blog
+
+#author profile
+profile: 
+  logo: Biake's Blog
+  avatar: /img/header.png
+  author: Biake Chou
+  city: ChangZhou
+  country: China
+  #descrption: simple is simple,but love is love
+
+#site favicon
+favicon: /img/favicon.png
+
+#visiblity/position sidebar [left/right]
+sidebar: 
+    enable: true
+    position: left
+
+#sidebar widgets
+# add '#' before to hide the widget
+widgets:
+- profile
+- search
+- recent
+- category
+- tagcloud
+- link
+
+#recent_posts amount
+recent_posts:
+  count: 6
+
+#social link
+social:  
+  github: https://github.com/waptak  
+  # zhihu:
+  # weibo:
+  # segmentfault: 
+  # facebook:
+  # twitter:
+  # instagram:
+  # linkedin:
+  # others:
+
+#your friends link
+link:     
+  test1: https://waptak.github.io  
+  test2: https://waptak.github.io  
+  test3: https://waptak.github.io  
+# linkd: 
+# linke:
+
+
+# toc of post  [true or false]  
+toc:
+    true
+
+# is fullscreen  [true or false] 
+fullscreen:
+    false
+
+# code style
+# only normal | todo
+highlight_theme: 
+    normal
+
+# website analytics 
+baidu_analytics:
+ #636802045446222199ae541e32c8133e 
+google_analytics: 
+
+# busuanzi site count
+busuanzi:
+  false
+
+# leancloud post count
+leancloud:
+  enable: false
+  comment: false
+  #app_id: #cFM0eCo0CQ9xmBXmHi1eltol-gzGzoHsz
+  #app_key: #oh9tizsnvV2vNvWgqEvoNtQO
+
+#mob share
+mob_share:
+  enable: false
+  #app_key: 21d601593a1de
+
+share_item:
+- qq
+- weixin
+- weibo
+- douban
+- facebook
+#- instagram
+- twitter
+
+
+#post reward
+reward:
+  enable: false
+  pic1: /img/r1.png
+  pic2: /img/r2.png

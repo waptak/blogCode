@@ -1,0 +1,13 @@
+<% if (site.posts.length){ %>
+  <div class="widget">
+
+   	  <a href="<%- url_for(theme.menu.archives) %>"><span class="widget-title"><%= __('Sidebar.Recents') %></span></a>
+
+   	 	<% var count = theme.recent_posts.count %>
+   
+        <% site.posts.sort('date', -1).limit(count).each(function(post){ %>          
+            <a class="recent-post slideDownMin animation-border-item" href="<%- url_for(post.path) %>"> <%= post.title || __('Untitled') %>
+            </a>          
+        <% }) %>     
+  </div>
+<% } %>

@@ -1,0 +1,68 @@
+
+// Fonts
+$font-size 		= 15px
+$font 			=  'Source Sans Pro','Roboto','Open Sans Condensed','Verdana','Helvetica','微软雅黑', 'sans serif' 
+$font-normal 	= 400
+$font-blod  	= 500
+$font-max 		= 600
+
+$logo-font 		=  'Lucida Grande','Open Sans Condensed'
+$post-title-font= 'Helvetica Neue','Open Sans Condensed','微软雅黑'
+$page-title-font=  'Helvetica Neue','Verdana','PingFang TC'
+$time-font 		= 'Times New Roman'
+$year-font 		= 'Helvetica Neue','Open Sans Condensed','Optima'
+$archive-font 	= 'Open Sans Condensed','Optima'
+$tag-font 		= 'Roboto','Hiragino Sans GB', 'Microsoft YaHei','微软雅黑'
+
+// Colors
+$bgr 		= #F5F6FA
+$block-bgr 	= #f6f8fa
+$line-clr 	= #f0f0f0
+$border-clr	= #d5dce5
+$search-clr = #FBFCFD
+ 
+
+
+$white 		= #FFF
+$gray 		= #AAA
+$black		= #454545
+
+
+$blue-main  = #0088cc 
+$blue-sub   = #00aacc
+$blue-thr 	= #00bbcc
+
+
+$black-main = #000000
+$black-sub  = #727272
+$black-thr 	= #e26d6d
+
+
+$red-main 	= #f93252
+$red-sub 	= #fa864b
+$red-thr 	= #9a5228
+
+//default site color
+$main-clr 	= $blue-main 
+$sub-clr 	= $blue-sub 
+$thr-clr 	= $blue-thr
+
+
+color =  hexo-config("color")
+
+if color is 'black'
+	$main-clr	 = $black-main
+	$sub-clr  	 = $black-sub
+	$thr-clr 	 = $black-thr
+	
+if color is 'red'
+	$main-clr	 = $red-main
+	$sub-clr  	 = $red-sub
+	$thr-clr 	 = $red-thr
+
+
+
+// Media queries
+mq-mobile = "screen and (max-width: 479px)"
+mq-tablet = "screen and (min-width: 480px) and (max-width: 768px)"
+mq-normal = "screen and (min-width: 769px)"

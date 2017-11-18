@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+  <%- partial('_partial/head') %> 
+
+  <body> 
+    <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+
+     <div class="container">   
+      
+        <% if (is_post()) { %>
+        <section id="post">
+        <% } else{ %>
+        <section id="main" class="slideDownMin">
+        <% } %>
+        
+
+         <%-body%></section>
+
+     <% if( !( is_post() || is_current('about')) ){ %>             
+      
+        <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>      
+    
+    <% } %>
+    
+    </div>        
+      
+    
+
+  
+    <div class="back-to-top iconfont icon-backtotop fadeIn"></div> 
+
+    <%- partial('_partial/search-container') %>
+    <%- partial('_partial/slide-menu') %>     
+    <%- partial('_partial/footer') %> 
+    <%- partial('_partial/after-footer') %> 
+  </body>   
+  <%- js('js/animation.js') %>   
+</html>

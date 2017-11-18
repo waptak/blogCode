@@ -1,0 +1,36 @@
+Menu:
+  home: 首頁
+  categories: 分類
+  tags: 標籤
+  archives: 歸檔
+  about: 關於
+Page:
+  Archives: 歸檔
+  Categories: 分類
+  Tags: 標籤
+  About: 關於
+Sidebar:
+  Posts: 文章
+  Categories: 分類
+  Recents: 最近文章
+  TagCloud: 標籤
+  FriendLinks: 友情連結
+
+Paginator: 
+  Prev: 上一頁
+  Next: 下一頁
+
+Contents: 目錄
+Read_more: Read More 
+Untitled: 無標題
+
+
+Comment:
+  Nick_holder: 昵稱
+  Mail_holder: 郵箱
+  Comment_holder: 說點什麼吧...
+
+Search:
+  Sidebar_words: 搜索
+  input_words: 搜索
+  Search_nonthing: 什麼都沒找到呀！

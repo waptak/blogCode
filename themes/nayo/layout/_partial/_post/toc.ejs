@@ -1,0 +1,16 @@
+<% if(theme.toc){  %>
+
+<div id="toc" class="slideRIn">		
+
+	<div class="toc-container">	
+
+	<span class="toc-contents iconfont icon-open" onclick="change()"> <%= __('Contents')%> </span>
+
+	<ul class="toc-list"></ul>
+
+	</div>
+
+</div>
+<% } %>
+
+<%- js('js/toc.js')%>

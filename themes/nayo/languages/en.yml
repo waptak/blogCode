@@ -1,0 +1,35 @@
+Menu:
+  home: Home
+  categories: Categories
+  tags: Tags
+  archives: Archives
+  about: About
+Page:
+  Archives: Archives
+  Categories: Categories
+  Tags: Tags
+  About: About
+Sidebar:
+  Posts: Posts
+  Categories: Categories
+  Recents: Recents
+  TagCloud: TagCloud
+  FriendLinks: FriendLinks
+
+Paginator: 
+  Prev: Prev
+  Next: Next
+
+Contents: Contents
+Read_more: Read More  
+Untitled: Untitled
+
+Comment:
+  Nick_holder: NickName
+  Mail_holder: Mail
+  Comment_holder: Typing Something
+
+Search:
+  Sidebar_words: Search
+  input_words: Search
+  Search_nonthing: Wow,Search nonthing!

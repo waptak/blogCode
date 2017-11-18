@@ -1,0 +1,11 @@
+<% if(theme.mob_share.enable){%>
+	
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=<%- theme.mob_share.app_key %>"></script>
+
+	<div class="-mob-share-list">
+
+		<% for ( i in theme.share_item){ %>                  
+            <span class="iconfont icon-share-<%-theme.share_item[i]%> -mob-share-<%-theme.share_item[i]%>"></span>
+     	<% } %>  
+	</div>    
+<%}%>

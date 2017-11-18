@@ -1,0 +1,18 @@
+<% if(theme.leancloud.enable && theme.leancloud.app_id && theme.leancloud.app_key ) {%>
+
+<span class="post-visitor">
+		<span class="iconfont icon-eye"></span>
+		<span class="post-count" id="post-leancloud-count"></span>
+</span>
+
+<script src="//cdn1.lncld.net/static/js/3.3.0/av-min.js"></script>
+<script>
+var app_id = '<%- theme.leancloud.app_id %>';
+var app_key = '<%- theme.leancloud.app_key %>';
+AV.init({
+  appId: app_id,
+  appKey: app_key
+});
+</script>
+<%- js('js/leancloud') %>
+<% } %>

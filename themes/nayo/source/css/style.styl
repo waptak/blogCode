@@ -1,0 +1,208 @@
+@import "_variables"
+@import "_iconfont"
+@import "_extend"
+
+
+@import "_util/mixin"
+@import "_util/grid"
+@import "_util/type"
+
+@import "_highlight/highlight"
+
+ 
+html,body
+  height 100%
+  width 100%
+  background $bgr
+  line-height .9
+  letter-spacing .3px
+  margin 0 
+  padding 0
+  font $font-size $font
+body
+  overflow-x hidden
+  
+.ul,.li
+  margin 0
+  padding 0.2em
+  list-style-type none
+  display inline 
+
+.page-title
+   display block
+   font-size 1.2em
+   font-family $page-title-font 
+   font-weight $font-blod
+   margin-bottom 2.3em
+   opacity .8
+   line-height 10px  
+   letter-spacing .5px
+   
+.show
+  display block
+.hide
+  display none
+  
+
+a
+ text-decoration none  
+ &:hover
+   color $main-clr
+ &:link
+   color $black
+ &:visited
+   color $black
+ &:active 
+   color $black
+
+img
+  @extend $img_radius 
+  width 100%
+  height auto
+  &:hover
+    opacity 0.8
+time
+  font 1rem  $time-font 
+  opacity 0.6
+  
+
+
+.container  
+  margin-top 1.8em
+  position relative  
+  top 0
+  left 0
+  display flex
+  align-items flex-start
+  justify-content center
+
+sidebar_position = hexo-config('sidebar.position')
+if sidebar_position is left
+  .container  
+    flex-direction row-reverse
+
+
+
+
+.left
+  float left
+.right
+  float right
+.clear
+  clear both
+.inline
+  display inline
+.center 
+  text-align: center
+.back-to-top
+    padding .1em
+    color $black
+    display none
+    position fixed   
+    cursor pointer
+    opacity 0.8
+    z-index 20
+    bottom 8%
+    left 90%  
+    &:hover
+      color $thr-clr     
+      border 1px solid $main-clr
+      border-radius 6px
+
+
+
+#toc
+    overflow hidden
+    position absolute
+    top 0
+ 
+fullscreen = hexo-config("fullscreen")
+   
+if  fullscreen is true 
+  #post
+      width 58%
+  #toc
+      left 81%    
+  #main  
+      width 63%     
+  #sidebar  
+      width 22%     
+else 
+  #post
+      width 54%
+  #toc
+      left 79%      
+  #main  
+      width 50%    
+  #sidebar  
+      width 18%
+      
+
+#main,#sidebar
+   margin 0 2em 
+
+  
+sidebar = hexo-config("sidebar")
+
+if sidebar is false
+  #main
+    width 60%
+    
+
+  
+toc = hexo-config("toc")
+
+if toc is false
+  #toc
+     display none
+     
+#toc      
+  @media mq-mobile 
+      display none
+
+
+
+
+::selection 
+  background $sub-clr
+  color $white
+
+::-webkit-scrollbar 
+    width 8px 
+    height 8px 
+    background-color $gray  
+    
+::-webkit-scrollbar  
+    @media mq-mobile
+      width 2px
+      height 2px
+
+::-webkit-scrollbar-track  
+    -webkit-box-shadow inset 0 0 6px rgba(0,0,0,0.3)  
+    border-radius  10px
+    background-color  $white   
+
+::-webkit-scrollbar-thumb  
+    border-radius 10px
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)  
+    background-color #555
+  
+  
+@import "_partial/header"
+@import "_partial/footer"
+@import "_partial/post"
+@import "_partial/archive"
+@import "_partial/article"
+@import "_partial/paginator"
+@import "_partial/category"
+@import "_partial/tags"
+@import "_partial/toc"
+@import "_partial/sidebar"
+@import "_partial/search"
+
+@import "_animation"
+
+@media mq-mobile 
+      @import "_partial/mobile"   
+@media mq-tablet
+      @import "_partial/tablet"   

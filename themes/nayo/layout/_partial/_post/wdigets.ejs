@@ -1,0 +1,36 @@
+<% if (site.categories.length){ %>
+
+<div class="post-widget">
+  
+  <a class="post-widget-title iconfont icon-category" href="<%-url_for(theme.menu.categories || '(no title)' )%>">
+  <%- __('Page.Categories')%></a>
+
+
+  <div class="small-tag">
+      <% site.categories.sort('date',-1).each (function (category){%> 
+        <a href="<%- url_for(category.path) %>"><%- category.name  %></a>     
+      <%})%>
+  </div>
+
+</div>
+
+<%} %>
+
+
+<% if (site.tags.length){ %>
+<div class="post-widget">
+  
+  <a class="post-widget-title iconfont icon-tag" href="<%-url_for(theme.menu.tags || '(no title)' )%>"> <%- __('Page.Tags')%></a>
+
+
+  <div class="small-tag">
+
+    <%- tagcloud(site.tags,{
+      min_font:13,
+      max_font:13,    
+    }) %>
+
+  </div>
+</div>
+
+<%} %>

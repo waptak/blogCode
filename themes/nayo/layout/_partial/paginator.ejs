@@ -1,0 +1,10 @@
+<% if (page.total > 1){ %> 
+
+  <nav class="paginator center">
+    <%- paginator({
+      prev_text: __('Paginator.Prev'),
+      next_text: __('Paginator.Next')
+    }) %>
+  </nav>
+  
+<% } %>
