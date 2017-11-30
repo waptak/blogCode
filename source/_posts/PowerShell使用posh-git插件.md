@@ -31,7 +31,7 @@ Update-Module posh-git
 ```
 
 > ## 配置
-### 安装完后在 ***C:\Users\<username>\Documents\WindowsPowerShell*** 添加文件profile.ps1，也可输入命令
+### 安装完后在C:\Users\ &lt;username&gt;\Documents\WindowsPowerShell添加文件profile.ps1，也可输入命令
 ``` bash
 $profile.CurrentUserCurrentHost
 ```
