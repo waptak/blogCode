@@ -1,6 +1,6 @@
 ---
 title: docker jenkin node项目 自动化部署记录
-date: 2018-01-05 13:29:44
+date: 2018-01-05 14:00:44
 tags: docker
 categories: 操作备忘
 ---
