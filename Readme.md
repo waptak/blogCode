@@ -49,5 +49,6 @@ $ hexo d #生成部署
 ``` bash
 $ hexo clean
 # 删除 .deploy_git文件夹  
+$ hexo d
 ```
 
