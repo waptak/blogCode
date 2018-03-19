@@ -2,6 +2,7 @@
 title: ubuntu 16.04 共享目录访问
 date: 2018-02-06 11:12:19
 tags: linux
+categories: 操作备忘
 ---
 
 ### 安装 ***samba*** 服务器

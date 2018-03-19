@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Biake Chou
-subtitle: 
-description: '对 没错！这就是我的签名'
+title: Biake
+subtitle:
+description:
 author: Biake Chou
 language: zh-CN
 timezone:
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: Nayo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
