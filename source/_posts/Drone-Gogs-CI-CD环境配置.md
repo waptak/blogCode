@@ -44,6 +44,12 @@ services:
     environment:
       - DRONE_SERVER=drone-server:9000
       - DRONE_SECRET=${DRONE_SECRET}
+```
 
+# 操作命令
+```bash
+docker-compose  up 
+docker-compose  down
+docker-compose  restart
 
 ```
