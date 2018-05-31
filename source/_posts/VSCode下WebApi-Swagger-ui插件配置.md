@@ -1,8 +1,8 @@
 ---
 title: VSCode下WebApi+Swagger-ui插件配置
 date: 2018-03-20 08:57:31
-tags: netCore
-categories: 操作备忘
+tags: netCore,vscode
+categories: netCore
 ---
 
 

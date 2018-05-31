@@ -1,8 +1,8 @@
 ---
 title: gitlab-runner 配置
 date: 2018-05-20 09:00:52
-tags: docker , gitlab , gitlab-runner
-categories: 操作备忘
+tags: docker , gitlab , gitlab-runner , ubuntu,linux
+categories: gitlab
 ---
 
 

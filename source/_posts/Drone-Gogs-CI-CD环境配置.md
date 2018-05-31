@@ -1,8 +1,8 @@
 ---
 title: Drone + Gogs CI-CD环境配置
 date: 2018-05-10 08:45:35
-tags: docker
-categories: 操作备忘
+tags: docker,gogs,drone,ubuntu,linux
+categories: docker
 ---
 
 # 安装 docker-compose (需先安装pip且在6.0版本及以上)

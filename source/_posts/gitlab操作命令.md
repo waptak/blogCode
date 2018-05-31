@@ -2,7 +2,7 @@
 title: gitlab操作命令
 date: 2017-11-18 13:20:30
 tags: gitlab
-categories: 操作备忘
+categories: gitlab
 ---
 
 ### 查看状态

@@ -1,8 +1,8 @@
 ---
 title: Docker Remote Api 配置
 date: 2018-05-31 08:41:59
-tags: docker
-categories: 操作备忘
+tags: docker,ubuntu,linux
+categories: docker
 ---
 
 # Docker Remote Api 相关配置

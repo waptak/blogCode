@@ -1,8 +1,8 @@
 ---
 title: Ubuntu 16.04 自动备份 mysql
 date: 2018-03-13 14:16:11
-tags: mysql , linux
-categories: 操作备忘
+tags: mysql , ubuntu ,linux
+categories: mysql
 ---
 
 ### 新建备份程序

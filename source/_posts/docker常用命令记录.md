@@ -2,7 +2,7 @@
 title: docker常用命令记录
 date: 2018-01-05 13:32:45
 tags: docker
-categories: 操作备忘
+categories: docker
 ---
 
 ### 常用命令

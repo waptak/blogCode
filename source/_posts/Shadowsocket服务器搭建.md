@@ -1,8 +1,8 @@
 ---
 title: Shadowsocket服务器搭建
 date: 2018-04-11 09:04:25
-tags: ubuntu
-categories: 操作备忘
+tags: ubuntu,shadowsocket ,linux
+categories: ubuntu
 ---
 
 ### Ubuntu 16.04 

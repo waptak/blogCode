@@ -2,7 +2,7 @@
 title: git添加远程仓库
 date: 2017-11-21 11:19:56
 tags: git
-categories: 操作备忘
+categories: git
 ---
 
 ### 没有本地仓库

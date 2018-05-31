@@ -2,7 +2,7 @@
 title: git仓库迁移
 date: 2017-11-18 13:19:09
 tags: git
-categories: 操作备忘
+categories: git
 ---
 
 ### 从原地址克隆一份裸版本库
