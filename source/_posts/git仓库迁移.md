@@ -1,7 +1,7 @@
 ---
 title: git仓库迁移
 date: 2017-11-18 13:19:09
-tags: git
+tags: [git]
 categories: git
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: PowerShell使用posh-git插件
 date: 2017-11-30 12:46:59
-tags: git,powershell,posh-git
+tags: [git,powershell,posh-git]
 categories: windows
 ---
 ## 项目地址 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)

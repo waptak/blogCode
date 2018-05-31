@@ -1,7 +1,7 @@
 ---
 title: Shadowsocket服务器搭建
 date: 2018-04-11 09:04:25
-tags: ubuntu,shadowsocket ,linux
+tags: [ubuntu,shadowsocket ,linux]
 categories: ubuntu
 ---
 

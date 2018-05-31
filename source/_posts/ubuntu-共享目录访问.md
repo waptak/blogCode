@@ -1,7 +1,7 @@
 ---
 title: ubuntu 16.04 共享目录访问
 date: 2018-02-06 11:12:19
-tags: ubuntu ,linux
+tags: [ubuntu,linux]
 categories: ubuntu
 ---
 

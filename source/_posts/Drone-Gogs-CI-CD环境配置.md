@@ -1,7 +1,7 @@
 ---
 title: Drone + Gogs CI-CD环境配置
 date: 2018-05-10 08:45:35
-tags: docker,gogs,drone,ubuntu,linux
+tags: [docker,gogs,drone,ubuntu,linux]
 categories: docker
 ---
 

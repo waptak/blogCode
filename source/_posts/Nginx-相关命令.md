@@ -1,7 +1,7 @@
 ---
 title: Nginx 相关命令
 date: 2017-12-08 09:11:49
-tags: nginx,ubuntu,linux
+tags: [nginx,ubuntu,linux]
 categories: nginx
 ---
 > 基础命令

@@ -1,7 +1,7 @@
 ---
 title: docker常用命令记录
 date: 2018-01-05 13:32:45
-tags: docker
+tags: [docker]
 categories: docker
 ---
 

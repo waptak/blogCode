@@ -1,7 +1,7 @@
 ---
 title: Docker Remote Api 配置
 date: 2018-05-31 08:41:59
-tags: docker,ubuntu,linux
+tags: [docker,ubuntu,linux]
 categories: docker
 ---
 

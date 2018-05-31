@@ -1,7 +1,7 @@
 ---
 title: git添加远程仓库
 date: 2017-11-21 11:19:56
-tags: git
+tags: [git]
 categories: git
 ---
 

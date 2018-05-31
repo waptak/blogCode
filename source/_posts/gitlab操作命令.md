@@ -1,7 +1,7 @@
 ---
 title: gitlab操作命令
 date: 2017-11-18 13:20:30
-tags: gitlab
+tags: [gitlab]
 categories: gitlab
 ---
 
