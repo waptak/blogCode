@@ -5,14 +5,14 @@
 # Site
 title: Biake Chou
 subtitle: 
-description: '对 没错！这就是我的签名'
+description: 'docker,ubuntu,linux,git,shadowsocket,gitlab,mysql,nodejs,nginx,gitlab-runner,gogs'
 author: Biake Chou
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.biake.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
