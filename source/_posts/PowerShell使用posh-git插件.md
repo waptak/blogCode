@@ -12,7 +12,7 @@ categories: windows
 
 ### 打开 PowerShell 执行命令
 ``` bash
-Set-ExecutionPolicyRemoteSigned
+Set-ExecutionPolicy RemoteSigned
 ```
 
 ### 安装 posh-git
