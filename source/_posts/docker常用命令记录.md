@@ -45,11 +45,17 @@ docker run -d \
 ```
 
 
-### redis 容器 （挂载宿主机配置）
+### redis 容器 （挂载宿主机配置,根conf需提供相对应版本）
 ```bash
-docker run -d \  
-  --name redis-uat \  
-  -p 6379:6379 \ 
-  -v /home/test/redisConf/redis.conf:/etc/redis/redis.conf:ro \ # ro 表示只读  不写则可读可写 或 rw
-  redis:3.0.6  
+docker run -d --name redis-test  -p 6379:6379  \
+-v /var/www/redis/redis.conf:/usr/local/etc/redis/redis.conf \
+-v /var/www/redis/data:/data \
+redis \
+redis-server /usr/local/etc/redis/redis.conf
+
+```
+
+### mysql 容器（挂载宿主机配置）
+```bash
+docker run -d  --name mysql-test  -p 3033:3306 -e MYSQL_ROOT_PASSWORD=123456  -v /var/www/mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf:ro --restart=always  mysql:5.7.20
 ```
