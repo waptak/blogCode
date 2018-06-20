@@ -79,7 +79,7 @@ theme: next
 deploy:
   type: git
   # 填上你自己的仓库名，注意后面有`.git`
-  repository: git@github.com:waptak/waptak.github.io.git 
+  repository: github:waptak/waptak.github.io.git 
   branch: master
 
 search:
