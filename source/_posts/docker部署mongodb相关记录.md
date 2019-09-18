@@ -26,7 +26,7 @@ services:
 ### 进入容器 备份命令
 ```bash
 $ docker-compose exec mongo /bin/sh
-# dump出 publish表 
+# dump出 publish表  用户 root 密码 root  
 $ mongodump -d publish -u root -p root --authenticationDatabase admin -o /data/backup
 # export出 collection
 $ mongoexport -d publish -u root -p root --authenticationDatabase admin  -c servers -o /data/backup/json/server.json
