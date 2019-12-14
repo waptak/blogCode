@@ -62,3 +62,5 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+<span class="post-meta-divider">|</span>
+<a href="http://beian.miit.gov.cn" target="_blank">苏ICP备18018173号-1</a>
