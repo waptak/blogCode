@@ -8,6 +8,7 @@ categories: docker
 # redis 5.0 + docker集群配置
 
 > ## 踩坑说明
+
 * docker容器`network_mode`没有使用`host`模式，最初不想改变内部端口，只改对外端口，没用`host`模式。虽然组建集群成功，但有如下情况
   * redis内部redirect时会自动内部分配的ip，导致和外部网络不在同一网段
   * 出现的结果：用redis-cli进入容器操作都正常，但外部项目使用或者redis工具查看操作时就卡住
@@ -16,6 +17,7 @@ categories: docker
 * 防火墙端口相关，被自己的mac坑了半天，建议不要在mac上测试了，服务器上的话也关了防火墙试，测试成功再开放端口测试
 
 > ## 综上改回`host`模式测试成功，以下记录部署流程，多台其实一样
+
 * 新建6个目录`redis_<端口>`
 
 * 准备`redis.conf`文件，放在新建的目录中，根据不同端口修改以下参数
@@ -141,6 +143,7 @@ categories: docker
   ```
 
 > ## 顺便写下nodejs中ioredis使用
+
 ```javascript
 var Redis = require("ioredis");
 var cluster = new Redis.Cluster([{
