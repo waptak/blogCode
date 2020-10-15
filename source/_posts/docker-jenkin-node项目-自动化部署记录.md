@@ -1,7 +1,7 @@
 ---
 title: docker-jenkin-node项目-自动化部署记录
 date: 2018-01-05 13:59:07
-tags: [docker,ubuntu,node,linux]
+tags: [docker,ubuntu,nodejs,linux]
 categories: docker
 ---
 ### docker 安装 jenkin
