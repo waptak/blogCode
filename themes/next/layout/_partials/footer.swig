@@ -63,4 +63,5 @@
 #}</div>
 {% endif %}
 <span class="post-meta-divider">|</span>
-<a href="http://beian.miit.gov.cn" target="_blank">苏ICP备18018173号-1</a>
+常州完美维度科技有限公司 版权所有
+<a href="http://beian.miit.gov.cn" target="_blank">苏ICP备19028314号-1</a>
