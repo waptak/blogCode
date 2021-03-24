@@ -62,4 +62,4 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
-<div style="display:block">常州完美维度科技有限公司 版权所有 <a href="http://beian.miit.gov.cn" target="_blank">苏ICP备19028314号-1</a></div>
+<div style="display:block">常州完美维度科技有限公司 版权所有 <a href="http://beian.miit.gov.cn" target="_blank">苏ICP备19028314号-2</a></div>
