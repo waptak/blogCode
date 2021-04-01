@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Biake Chou
+title: 完美维度
 subtitle: 
 description: 'Learning , Sharing'
 author: Biake Chou
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.biake.top/
+url: http://www.biake.vip/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
