@@ -53,3 +53,5 @@ $ hexo clean
 $ hexo d
 ```
 
+### NodeJS 12版本及以下可打包
+
