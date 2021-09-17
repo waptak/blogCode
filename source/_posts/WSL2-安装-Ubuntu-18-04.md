@@ -74,7 +74,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 ```bash
 hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
 wslip=$(hostname -I | awk '{print $1}')
-port=7890
+port=7890 # 根据代理端口更改
 
 poff(){
     unset http_proxy
