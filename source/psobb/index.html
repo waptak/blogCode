@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>PSOBB Character Item Viewer</title>
+  <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+  <meta name="keywords" content="PSO,PSOBB,Ephinea,tool">
+  <meta name="description" content="PSOBBの所有キャラクターとアイテムを閲覧できます。 View characters and items owned by PSOBB.">
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="shortcut icon" href="./resources/images/favicon/rune_white64.ico">
+  <link rel="icon" type="image/x-icon" href="./resources/images/favicon/rune_white64.ico">
+  <style>
+
+  </style>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    
+  </script>
+
+</head>
+
+<body>
+  <h1>PSOBB CHARACTER ITEM VIEWER</h1>
+  <div class="contents">
+
+    <!-- <div class="notification" id="notification"></div> -->
+
+    <div class="input">
+        <div class="desc" id="desc">
+          上传数据文件 (.psochar and .psobank)
+          <a class="download" href="https://ephinea.pioneer2.net/download-data/" target="_blank">Download</a>
+        </div>
+          <input type="file" id="inputb" name="file[]" multiple onchange=clickInput(event)>
+    </div>
+
+    <div class="sticky">
+      <div class="lang" id="radio">
+        <button type="button" id="langb" onClick=clickDisplayItemCodes(event)>ITEM CODES</button>
+        <input type="radio" name="lang" value="en" checked onClick=changeLang()>English
+        <input type="radio" name="lang" value="ja" onClick=changeLang() >中文
+      </div>
+      <div class="pager", id="pager"></div>
+      <div class="search" id="search">
+        <div class="type">
+          <div class="sep"><button type="button" class="searchb" id="searchb" onClick=clickSearch(event)></button></div>
+          <input type="checkbox" class="" name="types" value="1" >武器
+          <input type="checkbox" class="" name="types" value="2" >衣服
+          <input type="checkbox" class="" name="types" value="3" >盾
+          <input type="checkbox" class="" name="types" value="4" >插件
+          <input type="checkbox" class="" name="types" value="5" >马古
+          <input type="checkbox" class="" name="types" value="6" >Disks
+          <input type="checkbox" class="" name="types" value="7" >Tools
+          <input type="checkbox" class="" name="types" value="8" >S-Ranks
+          <input type="checkbox" class="" name="types" value="9" >Other
+        </div>
+        <div class="wordsearches">
+          <div class="sep"><input type="text" class="word" name="word" placeholder="输入道具名"></div>
+          <div class="sep"><input type="text" class="element" name="element" placeholder="EX"></div>
+          <div class="sep"><input type="text" class="att" name="hit" placeholder="HIT 值"></div>
+          <div class="sep"><input type="checkbox" class="unTekked" name="unTekked" value="1" >仅未鉴定</div>
+        </div>
+      </div>
+    </div>
+    <div class="data", id="data"></div>
+</div>
+
+</body>
+<!-- <script type="text/javascript" src="./js/notification/notification.js"></script> -->
+<script type="text/javascript" src="./js/model/item/Item.js"></script>
+<script type="text/javascript" src="./js/config/item_codes.js"></script>
+<script type="text/javascript" src="./js/config/item_codes_ja.js"></script>
+<script type="text/javascript" src="./js/config/Config.js"></script>
+<script type="text/javascript" src="./js/model/charactor/Abstract.js"></script>
+<script type="text/javascript" src="./js/model/charactor/Charactor.js"></script>
+<script type="text/javascript" src="./js/model/charactor/ShareBank.js"></script>
+<script type="text/javascript" src="./js/display.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
