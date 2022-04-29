@@ -12,7 +12,7 @@ var currentpage;
 // 初期表示
 initializeLang();
 initializeDisplay();
-displayNotification();
+// displayNotification();
 
 function initializeLang()
 {

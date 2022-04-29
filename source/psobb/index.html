@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <h1>PSOBB CHARACTER ITEM VIEWER</h1>
+  <h1>PSOBB 角色物品查看</h1>
   <div class="contents">
 
     <!-- <div class="notification" id="notification"></div> -->
@@ -27,21 +27,21 @@
     <div class="input">
         <div class="desc" id="desc">
           上传数据文件 (.psochar and .psobank)
-          <a class="download" href="https://ephinea.pioneer2.net/download-data/" target="_blank">Download</a>
+          <a class="download" href="https://ephinea.pioneer2.net/download-data/" target="_blank">从E服下载</a>
         </div>
           <input type="file" id="inputb" name="file[]" multiple onchange=clickInput(event)>
     </div>
 
     <div class="sticky">
       <div class="lang" id="radio">
-        <button type="button" id="langb" onClick=clickDisplayItemCodes(event)>ITEM CODES</button>
+        <button type="button" id="langb" onClick=clickDisplayItemCodes(event)>物品代码</button>
         <input type="radio" name="lang" value="en" checked onClick=changeLang()>English
         <input type="radio" name="lang" value="ja" onClick=changeLang() >中文
       </div>
       <div class="pager", id="pager"></div>
       <div class="search" id="search">
         <div class="type">
-          <div class="sep"><button type="button" class="searchb" id="searchb" onClick=clickSearch(event)></button></div>
+          
           <input type="checkbox" class="" name="types" value="1" >武器
           <input type="checkbox" class="" name="types" value="2" >衣服
           <input type="checkbox" class="" name="types" value="3" >盾
@@ -57,6 +57,7 @@
           <div class="sep"><input type="text" class="element" name="element" placeholder="EX"></div>
           <div class="sep"><input type="text" class="att" name="hit" placeholder="HIT 值"></div>
           <div class="sep"><input type="checkbox" class="unTekked" name="unTekked" value="1" >仅未鉴定</div>
+          <div class="sep"><button type="button" class="searchb" id="searchb" onClick=clickSearch(event)></button></div>
         </div>
       </div>
     </div>

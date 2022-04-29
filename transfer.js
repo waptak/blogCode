@@ -85,11 +85,6 @@ function valueSet(data, sourceArray, magicArray) {
         if (eng && cn && v == eng) {
           data[key] = cn;
         }
-
-        if (line.indexOf('BLUE RING')>-1 && key=='0x010253') {
-          console.log(line)
-          console.log(eng + '---' + cn)
-        }
       })
 
 

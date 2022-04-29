@@ -7,6 +7,7 @@ class Item {
   {
     // コンフィグ設定
     this.Config = new Config(lang);
+    console.log('config11213213', this.Config)
 
     // アイテムの種類を取得（武器、鎧、テクニックなど）
     let itemType = this.getItemType(itemCode);
@@ -302,6 +303,9 @@ class Item {
   getElement(itemData)
   {
       let code = itemData[4];
+      console.log('code123333333333333',itemData)
+      console.log('code123333333333333',code)
+      console.log('code123333333333333',this.Config.ElementCodes)
       if (code in this.Config.ElementCodes)
       {
           return this.Config.ElementCodes[code];
