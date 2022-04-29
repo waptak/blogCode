@@ -59,8 +59,11 @@ a:hover
 .lang
 {
   font-size: 80%;
+  padding:0 0 10px 0;
 }
-
+.pager button{
+  margin: 0 5px 0 0;
+}
 .search
 {
   margin-top: 0.5em;
@@ -70,6 +73,10 @@ a:hover
 .type
 {
   display: flex;
+  padding:0 0 5px 0;
+}
+.type .search-item {
+  margin: 0 5px 0 0;
 }
 
 .wordsearches
@@ -129,7 +136,7 @@ a:hover
   position: sticky;
   top: 0em; /*ここで止める位置を調整する*/
   z-index: 1;
-  background-color: #faebd7;
+  /* background-color: #faebd7; */
   padding: 1em 0em 1em 0em;
   width: auto;
 }

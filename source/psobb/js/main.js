@@ -85,7 +85,7 @@ function changeLang()
           if (value[3] === value2[3]) tmp.push(value2);
         });
       });
-      displayInventory(tmp, "SEARCH RESULTS", "allItems");
+      displayInventory(tmp, "搜索结果", "allItems");
     }
     if (!isNaN(currentpage)) displayCharactor(this.charactors[currentpage]);
   }
@@ -494,7 +494,7 @@ function search(allItems, lang)
 
   // 現在ページの情報を保存
   localStorage.setItem("currentpage", JSON.stringify("search"));
-  displayInventory(result, "SEARCH RESULTS", "allItems")
+  displayInventory(result, "搜索结果", "allItems")
 }
 
 // 初期表示でリアルタイム検索読み込み
