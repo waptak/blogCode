@@ -668,8 +668,8 @@ FORCE FIELD 魔导服
 REVIVAL GARMENT 回生衣
 SPIRIT GARMENT 安神衣
 STINK FRAME 腥臭铠
-D-PARTS ver1.01 Ｄ组件ｖｅｒ１.０１
-D-PARTS ver2.10 Ｄ组件ｖｅｒ２.１０
+D-PARTS ver1.01 Ｄ组件ｖｅｒ１．０１
+D-PARTS ver2.10 Ｄ组件ｖｅｒ２．１０
 PARASITE WEAR:De Rol 寄生防具「迪－洛尔」
 PARASITE WEAR:Nelgal 寄生防具「内加尔」
 PARASITE WEAR:Vajulla 寄生防具「瓦究拉」
@@ -749,8 +749,8 @@ Spiritual Shield 灵魂机械盾
 Celestial Shield 天国机械盾
 INVISIBLE GUARD 透明盾
 SACRED GUARD 圣光盾
-S-PARTS ver1.16 Ｓ组件ｖｅｒ１.１６
-S-PARTS ver2.01 Ｓ组件ｖｅｒ２.０１
+S-PARTS ver1.16 Ｓ组件ｖｅｒ１．１６
+S-PARTS ver2.01 Ｓ组件ｖｅｒ２．０１
 LIGHT RELIEF 浮光盾
 SHIELD OF DELSABER 剑魔之盾
 FORCE WALL 魔导盾

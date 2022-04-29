@@ -57,7 +57,7 @@ tempContent = tempContent.replace(/#BARRIER_ADDITIONS#/g, JSON.stringify(barrier
 tempContent = tempContent.replace(/#DISKNAME_CODES#/g, JSON.stringify(diskNameCodes));
 tempContent = tempContent.replace(/#PBS#/g, JSON.stringify(pbs));
 
-itemCodeStr = JSON.stringify(itemCode).substring(0, JSON.stringify(itemCode).length - 1)+ "," + JSON.stringify(itemCodesEphOriginal).slice(1)
+itemCodeStr = JSON.stringify(itemCode).substring(0, JSON.stringify(itemCode).length - 1) + "," + JSON.stringify(itemCodesEphOriginal).slice(1)
 
 tempContent = tempContent.replace(/#ITEM_CODES#/g, itemCodeStr);
 
@@ -74,18 +74,24 @@ createFile("item_codes_ja.js", tempContent)
 function valueSet(data, sourceArray, magicArray) {
   for (var key in data) {
     let v = data[key];
-    if (!v.startsWith('Type') ) {
+    if (!v.startsWith('Type')) {
       sourceArray.forEach((line) => {
         let eng = line.replace(cnReg, '').trim();
         let cn = line.match(cnReg)
         if (cn && cn.length > 0) {
           cn = cn.join("");
         }
-        
+
         if (eng && cn && v == eng) {
           data[key] = cn;
         }
+
+        if (line.indexOf('BLUE RING')>-1 && key=='0x010253') {
+          console.log(line)
+          console.log(eng + '---' + cn)
+        }
       })
+
 
       if (magicArray) {
         sourceArray.forEach((line) => {
