@@ -74,14 +74,14 @@ Gigobooma's Right Arm 红狂熊的右手
 Gal Gryphon's Wing 加尔狮鹫的羽毛
 Rappy's Wing 拉比鸟的羽毛
 Berill Photon 机忍光子
-Parasitic gene “Flow” 侵蚀遗传因子「弗罗文」
-Magic Stone “Iritista” 魔石「伊利提斯塔」
+Parasitic gene "Flow" 侵蚀遗传因子「弗罗文」
+Magic Stone "Iritista" 魔石「伊利提斯塔」
 Blue-black stone 苍黑石
 Syncesta 真空波石
 Magic Water 魔神水
 Parasitic cell Type D Ｄ型寄生细胞
-magic rock “Heart Key” 魔石「心键」
-magic rock “Moola” 辉石「月晖」
+magic rock "Heart Key" 魔石「心键」
+magic rock "Moola" 辉石「月晖」
 Star Amplifier 星型增幅器
 Book of HITOGATA 真瑚经书
 Heart of Chu Chu 啾啾之心
@@ -135,18 +135,18 @@ Decoction 调和药
 Christmas Present 圣诞节礼物
 Easter Egg 复活节彩蛋
 Jack-O'-Lantern 南瓜
-DISK Vol.1 “Wedding March” 音乐ＣＤ「结婚进行曲」
-DISK Vol.2 “Day Light” 音乐ＣＤ「Day Light」
-DISK Vol.3 “Burning Rangers” 音乐ＣＤ「Burning ANGEL」
-DISK Vol.4 “Open Your Heart” 音乐ＣＤ「 Open Your Heart」
-DISK Vol.5 “Live & Learn” 音乐ＣＤ「Live and Learn」
-DISK Vol.6 “NiGHTS” 音乐ＣＤ「Dreams Dreams」
-DISK Vol.7 “Ending Theme (Piano ver.)” 音乐ＣＤ「Can Still See the Light」
-DISK Vol.8 “Heart to Heart” 音乐ＣＤ「Heart 2 Heart」
-DISK Vol.9 “Strange Blue” 音乐ＣＤ「Strange Blue」
-DISK Vol.10 “Reunion System” 音乐ＣＤ「Reunion System」
-DISK Vol.11 “Pinnacles” 音乐ＣＤ「Pinnacles」
-DISK Vol.12 “Fight inside the Spaceship” 音乐ＣＤ「宇宙船内の戦い」
+DISK Vol.1 "Wedding March" 音乐ＣＤ「结婚进行曲」
+DISK Vol.2 "Day Light" 音乐ＣＤ「Day Light」
+DISK Vol.3 "Burning Rangers" 音乐ＣＤ「Burning ANGEL」
+DISK Vol.4 "Open Your Heart" 音乐ＣＤ「 Open Your Heart」
+DISK Vol.5 "Live & Learn" 音乐ＣＤ「Live and Learn」
+DISK Vol.6 "NiGHTS" 音乐ＣＤ「Dreams Dreams」
+DISK Vol.7 "Ending Theme (Piano ver.)" 音乐ＣＤ「Can Still See the Light」
+DISK Vol.8 "Heart to Heart" 音乐ＣＤ「Heart 2 Heart」
+DISK Vol.9 "Strange Blue" 音乐ＣＤ「Strange Blue」
+DISK Vol.10 "Reunion System" 音乐ＣＤ「Reunion System」
+DISK Vol.11 "Pinnacles" 音乐ＣＤ「Pinnacles」
+DISK Vol.12 "Fight inside the Spaceship" 音乐ＣＤ「宇宙船内の戦い」
 Hunters Report 猎人报告书
 Hunters Report 猎人报告书
 Hunters Report 猎人报告书
@@ -221,7 +221,7 @@ Lockgun 放射光枪
 Railgun 磁电光枪
 Raygun 原子光枪
 VARISTA 麻醉枪
-CUSTOM RAY ver.OO 军用光枪 ver.00
+CUSTOM RAY ver.OO 军用光枪ｖｅｒ．００
 BRAVACE 军用电击枪
 Mechgun 机枪
 Assault 扫射机枪
@@ -302,20 +302,20 @@ DELSABER'S BUSTER 剑魔之剑
 BRINGER'S RIFLE 混沌骑士枪
 EGG BLASTER 爆蛋枪
 VICTOR AXE 胜利者之斧
-CHAIN SWORD 电锯
+CHAIN SAWD 电锯
 CADUCEUS 羽毛杖
 STING TIP 蜂尾杖
 MAGICAL PIECE 心心杖
 TECHNICAL CROZIER 异能魔杖
 PSYCHO WAND 圣杖「意念」
 HEAVEN PUNISHER 圣枪「天罚」
-LAVIS CANNON 圣剑「拉维斯·迦农」
-LAVIS BLADE 圣剑「双刃·拉维斯」
-DOUBLE CANNON 圣剑「双切·迦农」
+LAVIS CANNON 圣剑「拉维斯－迦农」
+LAVIS BLADE 圣剑「双刃－拉维斯」
+DOUBLE CANNON 圣剑「双切－迦农」
 SUPPRESSED GUN 消音枪
 ANCIENT SABER 古代剑
 HARISEN BATTLE FAN 纸扇
-YAMIGARASU 妖刀-暗鸦
+YAMIGARASU 妖刀暗鸦
 AKIKO'S WOK 秋子婶婶的中华锅
 TOY HAMMER 玩具锤
 ELYSION 魔法剑
@@ -347,7 +347,7 @@ ROCKET PUNCH 火箭铁拳
 SAMBA MARACAS 桑巴沙锤
 TWIN PSYCHOGUN 意念双枪
 DRILL LAUNCHER 钻头火箭炮
-GULD MILLA 伽尔德-米拉
+GULD MILLA 伽尔德－米拉
 RED MECHGUN 红色机枪
 BELRA CANNON 巨神像加农炮
 PANZER FAUST 导向穿甲弹
@@ -363,7 +363,7 @@ DEMONIC FORK 恶魔之叉
 STRIKER OF CHAO 查欧杖
 BROOM 扫帚
 PROPHETS OF MOTAV 魔法预言书
-THE SIGH OF GOD 神之吐息
+THE SIGH OF A GOD 神之吐息
 TWINKLE STAR 星星杖
 PLANTAIN FAN 魔蕉扇
 TWIN BLAZE 火流星
@@ -466,7 +466,7 @@ ZANBA 斩马刀
 RIKA'S CLAW 里卡之爪
 ANGEL HARP 天使之琴
 DEMOLITION COMET 破坏彗星
-NEI'S CLAW 真-妮之爪
+NEI'S CLAW 真－妮之爪
 RAINBOW BATON 彩虹旋刃
 DARK FLOW 暗黑弗罗文大剑
 DARK METEOR 暗黑陨石
@@ -668,16 +668,16 @@ FORCE FIELD 魔导服
 REVIVAL GARMENT 回生衣
 SPIRIT GARMENT 安神衣
 STINK FRAME 腥臭铠
-D-PARTS ver1.01 Ｄ组件 ver1.01
-D-PARTS ver2.10 Ｄ组件 ver2.10
-PARASITE WEAR:De Rol 寄生防具「迪-洛尔」
+D-PARTS ver1.01 Ｄ组件ｖｅｒ１.０１
+D-PARTS ver2.10 Ｄ组件ｖｅｒ２.１０
+PARASITE WEAR:De Rol 寄生防具「迪－洛尔」
 PARASITE WEAR:Nelgal 寄生防具「内加尔」
 PARASITE WEAR:Vajulla 寄生防具「瓦究拉」
 SENSE PLATE 灵感铠
 GRAVITON PLATE 重力铠
 ATTRIBUTE PLATE 六芒星铠
 FLOWEN'S FRAME 弗罗文之铠
-CUSTOM FRAME ver.OO 军用铠 ver.00
+CUSTOM FRAME ver.OO 军用铠ｖｅｒ．００
 DB'S ARMOR ＤＢ之铠
 GUARD WAVE 波动护甲
 DF FIELD ＤＦ领域
@@ -714,7 +714,7 @@ TEMPEST CLOAK 感电披风
 CURSED CLOAK 咒之披风
 SELECT CLOAK 圣洁披风
 SPIRIT CUIRASS 安神护甲
-REVIVAL CUIRASS 回生护甲
+REVIVAL CURIASS 回生护甲
 ALLIANCE UNIFORM 联盟亲卫队军服
 OFFICER UNIFORM 联盟亲卫队上等兵军服
 COMMANDER UNIFORM 联盟亲卫队指挥官军服
@@ -749,8 +749,8 @@ Spiritual Shield 灵魂机械盾
 Celestial Shield 天国机械盾
 INVISIBLE GUARD 透明盾
 SACRED GUARD 圣光盾
-S-PARTS ver1.16 Ｓ组件 ver1.16
-S-PARTS ver2.01 Ｓ组件 ver2.01
+S-PARTS ver1.16 Ｓ组件ｖｅｒ１.１６
+S-PARTS ver2.01 Ｓ组件ｖｅｒ２.０１
 LIGHT RELIEF 浮光盾
 SHIELD OF DELSABER 剑魔之盾
 FORCE WALL 魔导盾
@@ -763,7 +763,7 @@ PROTO REGENE GEAR 试作型再生机能盾
 REGENERATE GEAR 再生机能盾
 REGENE GEAR ADV. 改进型再生机能盾
 FLOWEN'S SHIELD 弗罗文之盾
-CUSTOM BARRIER ver.OO 军用盾 ver.00
+CUSTOM BARRIER ver.OO 军用盾ｖｅｒ．００
 DB'S SHIELD ＤＢ之盾
 RED RING 红色手镯
 TRIPOLIC SHIELD 硅钢盾
@@ -841,7 +841,7 @@ PURPLE RING 紫色手镯
 PURPLE RING 紫色手镯
 PURPLE RING 紫色手镯
 PURPLE RING 紫色手镯
-WHITE RING 御魔手镯
+Anti-Dark Ring 御魔手镯
 WHITE RING 白色手镯
 WHITE RING 白色手镯
 WHITE RING 白色手镯
@@ -849,7 +849,7 @@ WHITE RING 白色手镯
 WHITE RING 白色手镯
 WHITE RING 白色手镯
 WHITE RING 白色手镯
-BLACK RING 御圣手镯
+Anti-Light Ring 御圣手镯
 BLACK RING 黑色手镯
 BLACK RING 黑色手镯
 BLACK RING 黑色手镯
@@ -868,10 +868,10 @@ YATA MIRROR 八咫镜
 BUNNY EARS 兔耳发饰
 CAT EARS 猫耳发饰
 THREE SEALS 封印之盾
-GOD'S SHIELD “KOURYU” 四神盾「黄龙」
+GOD'S SHIELD "KOURYU" 四神盾「黄龙」
 DF SHIELD ＤＦ之盾
 FROM THE DEPTHS 深渊来客
-DE ROL LE SHIELD 迪-洛尔-雷之盾
+DE ROL LE SHIELD 迪－洛尔－雷之盾
 HONEYCOMB REFLECTOR 蜂窝反射盾
 EPSIGUARD 厄普西隆之盾
 ANGEL RING 天使圆环
@@ -882,72 +882,72 @@ UNION GUARD 公会盾
 STINK SHIELD 腥臭盾
 Black Gauntlet 黑色手套
 GENPEI 源平
-Knight/Power 骑士级/攻击
-General/Power 将军级/攻击
-Ogre/Power 巨人级/攻击
-God/Power 天神级/攻击
-Priest/Mind 祭司级/精神
-General/Mind 将军级/精神
-Angel/Mind 天使级/精神
-God/Mind 天神级/精神
-Marksman/Arm 射手级/命中
-General/Arm 将军级/命中
-Elf/Arm 妖精级/命中
-God/Arm 天神级/命中
-Thief/Legs 盗贼级/回避
-General/Legs 将军级/回避
-Elf/Legs 妖精级/回避
-God/Legs 天神级/回避
-Digger/HP 地鬼级/ＨＰ
-General/HP 将军级/ＨＰ
-Dragon/HP 巨龙级/ＨＰ
-God/HP 天神级/ＨＰ
-Magician/TP 法师级/ＴＰ
-General/TP 将军级/ＴＰ
-Angel/TP 天使级/ＴＰ
-God/TP 天神级/ＴＰ
-Warrior/Body 武士级/防御
-General/Body 将军级/防御
-Metal/Body 金属级/防御
-God/Body 天神级/防御
-Angel/Luck 天使级/运
-God/Luck 天神级/运
-Master/Ability 大师级/全能力
-Hero/Ability 英雄级/全能力
-God/Ability 天神级/全能力
-Resist/Fire 抗性/火热
-Resist/Flame 抗性/灼热
-Resist/Burning 抗性/炽热
-Resist/Cold 抗性/冰霜
-Resist/Freeze 抗性/冰冻
-Resist/Blizzard 抗性/冰暴
-Resist/Shock 抗性/电击
-Resist/Thunder 抗性/雷电
-Resist/Storm 抗性/雷暴
-Resist/Light 抗性/光明
-Resist/Saint 抗性/神圣
-Resist/Holy 抗性/圣洁
-Resist/Dark 抗性/暗黑
-Resist/Evil 抗性/邪魔
-Resist/Devil 抗性/魔鬼
-All/Resist 全部/抗性
-Super/Resist 超级/抗性
-Perfect/Resist 完美/抗性
-HP/Restorate ＨＰ/回复
-HP/Generate ＨＰ/再生
-HP/Revival ＨＰ/重生
-TP/Restorate ＴＰ/回复
-TP/Generate ＴＰ/再生
-TP/Revival ＴＰ/重生
-PB/Amplifier ＰＢ/回复
-PB/Generate ＰＢ/再生
-PB/Create ＰＢ/重生
-Wizard/Technique 巫师级/魔法
-Devil/Technique 恶魔级/魔法
-God/Technique 天神级/魔法
-General/Battle 将军级/战斗
-Devil/Battle 恶魔级/战斗
-God/Battle 天神级/战斗
+Knight/Power 骑士级／攻击
+General/Power 将军级／攻击
+Ogre/Power 巨人级／攻击
+God/Power 天神级／攻击
+Priest/Mind 祭司级／精神
+General/Mind 将军级／精神
+Angel/Mind 天使级／精神
+God/Mind 天神级／精神
+Marksman/Arm 射手级／命中
+General/Arm 将军级／命中
+Elf/Arm 妖精级／命中
+God/Arm 天神级／命中
+Thief/Legs 盗贼级／回避
+General/Legs 将军级／回避
+Elf/Legs 妖精级／回避
+God/Legs 天神级／回避
+Digger/HP 地鬼级／ＨＰ
+General/HP 将军级／ＨＰ
+Dragon/HP 巨龙级／ＨＰ
+God/HP 天神级／ＨＰ
+Magician/TP 法师级／ＴＰ
+General/TP 将军级／ＴＰ
+Angel/TP 天使级／ＴＰ
+God/TP 天神级／ＴＰ
+Warrior/Body 武士级／防御
+General/Body 将军级／防御
+Metal/Body 金属级／防御
+God/Body 天神级／防御
+Angel/Luck 天使级／运
+God/Luck 天神级／运
+Master/Ability 大师级／全能力
+Hero/Ability 英雄级／全能力
+God/Ability 天神级／全能力
+Resist/Fire 抗性／火热
+Resist/Flame 抗性／灼热
+Resist/Burning 抗性／炽热
+Resist/Cold 抗性／冰霜
+Resist/Freeze 抗性／冰冻
+Resist/Blizzard 抗性／冰暴
+Resist/Shock 抗性／电击
+Resist/Thunder 抗性／雷电
+Resist/Storm 抗性／雷暴
+Resist/Light 抗性／光明
+Resist/Saint 抗性／神圣
+Resist/Holy 抗性／圣洁
+Resist/Dark 抗性／暗黑
+Resist/Evil 抗性／邪魔
+Resist/Devil 抗性／魔鬼
+All/Resist 全部／抗性
+Super/Resist 超级／抗性
+Perfect/Resist 完美／抗性
+HP/Restorate ＨＰ／回复
+HP/Generate ＨＰ／再生
+HP/Revival ＨＰ／重生
+TP/Restorate ＴＰ／回复
+TP/Generate ＴＰ／再生
+TP/Revival ＴＰ／重生
+PB/Amplifier ＰＢ／回复
+PB/Generate ＰＢ／再生
+PB/Create ＰＢ／重生
+Wizard/Technique 巫师级／魔法
+Devil/Technique 恶魔级／魔法
+God/Technique 天神级／魔法
+General/Battle 将军级／战斗
+Devil/Battle 恶魔级／战斗
+God/Battle 天神级／战斗
 Cure/Poison 中毒回复
 Cure/Paralysis 麻痹回复
 Cure/Slow 迟缓回复
@@ -965,23 +965,23 @@ SWORDSMAN LORE 剑士的心得
 PROOF OF SWORD-SAINT 剑圣之证
 SMARTLINK 灵感之环
 DIVINE PROTECTION 神圣守护
-Heavenly/Battle 天堂级/战斗
-Heavenly/Power 天堂级/攻击
-Heavenly/Mind 天堂级/精神
-Heavenly/Arms 天堂级/命中
-Heavenly/Legs 天堂级/回避
-Heavenly/Body 天堂级/防御
-Heavenly/Luck 天堂级/运
-Heavenly/Ability 天堂级/全能力
-Centurion/Ability 百人长/全能力
+Heavenly/Battle 天堂级／战斗
+Heavenly/Power 天堂级／攻击
+Heavenly/Mind 天堂级／精神
+Heavenly/Arms 天堂级／命中
+Heavenly/Legs 天堂级／回避
+Heavenly/Body 天堂级／防御
+Heavenly/Luck 天堂级／运
+Heavenly/Ability 天堂级／全能力
+Centurion/Ability 百人长／全能力
 Friend Ring 友情戒指
-Heavenly/HP 天堂级/ＨＰ
-Heavenly/TP 天堂级/ＴＰ
-Heavenly/Resist 天堂级/抗性
-Heavenly/Technique 天堂级/魔法
-HP/Ressurection ＨＰ/超生
-TP/Ressurection ＴＰ/超生
-PB/Increase ＰＢ/超生
+Heavenly/HP 天堂级／ＨＰ
+Heavenly/TP 天堂级／ＴＰ
+Heavenly/Resist 天堂级／抗性
+Heavenly/Technique 天堂级／魔法
+HP/Ressurection ＨＰ／超生
+TP/Ressurection ＴＰ／超生
+PB/Increase ＰＢ／超生
 Protist 原生
 A=Beast 变异
 Machine 机械
@@ -1346,3 +1346,5 @@ Jellen 降攻术
 Zalure 降防术
 Anti 状态术
 Resta 圣泉术
+Ryuker 瞬移术
+Reverser 回魂术

@@ -1,0 +1,31 @@
+function ElementCodes_JA() {
+  return #ELEMENT_CODES#
+}
+
+function SrankElementCodes_JA() {
+  return #SRANK_ELEMENT_CODES#
+}
+
+function FrameAdditions_JA() {
+  return #FRAME_ADDITIONS#
+}
+
+function BarrierAdditions_JA() {
+  return #BARRIER_ADDITIONS#
+}
+
+function DiskNameCodes_JA() {
+  return #DISKNAME_CODES#
+}
+
+function DiskNameLanguage_JA() {
+  return "光盘";
+}
+
+function PBs_JA() {
+  return #PBS#
+}
+
+function ItemCodes_JA() {
+  return #ITEM_CODES#
+}

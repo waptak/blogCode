@@ -15,3 +15,5 @@ Jellen 降攻术
 Zalure 降防术
 Anti 状态术
 Resta 圣泉术
+Ryuker 瞬移术
+Reverser 回魂术
