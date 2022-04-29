@@ -40,18 +40,18 @@ class Config {
   };
 
   Classes = {
-    0x00 : "HUmar",
-    0x01 : "Hunewearl",
-    0x02 : "HUcast",
-    0x03 : "RAmar",
-    0x04 : "RAcast",
-    0x05 : "RAcaseal",
-    0x06 : "FOmarl",
-    0x07 : "FOnewm",
-    0x08 : "FOnewearl",
-    0x09 : "HUcaseal",
-    0x0A : "FOmar",
-    0x0B : "RAmarl",
+    0x00 : "废柴",
+    0x01 : "花瓶",
+    0x02 : "铁皮",
+    0x03 : "军哥",
+    0x04 : "坦克",
+    0x05 : "女仆",
+    0x06 : "人妻",
+    0x07 : "猴子",
+    0x08 : "萝莉",
+    0x09 : "女忍",
+    0x0A : "爆法",
+    0x0B : "军嫂",
   };
 
   Titles = {
@@ -67,17 +67,17 @@ class Config {
   };
 
   SectionIDs = {
-    0x00 : "VIRIDIA",
-    0x01 : "GREENILE",
-    0x02 : "SKYLY",
-    0x03 : "BLUEFULL",
-    0x04 : "PURPLENUM",
-    0x05 : "PINKAL",
-    0x06 : "REDRIA",
-    0x07 : "ORAN",
-    0x08 : "YELLOWBOZE",
-    0x09 : "WHITILL",
-    0x0A : "VIRIDIA",
+    0x00 : "铬绿",
+    0x01 : "翠绿",
+    0x02 : "天青",
+    0x03 : "纯蓝",
+    0x04 : "淡紫",
+    0x05 : "分红",
+    0x06 : "真红",
+    0x07 : "橙黄",
+    0x08 : "金黄",
+    0x09 : "纯白",
+    0x0A : "铬绿",
   };
 
   AttributeType = {

@@ -64,24 +64,24 @@ function displayCharactor(charactor)
   id.innerHTML = '';
 
   let h2 = document.createElement("h2");
-  h2.appendChild(document.createTextNode("CHARACTER"));
+  h2.appendChild(document.createTextNode("角色"));
   id.appendChild(h2);
   let table = document.createElement("table");
   let tbody = document.createElement("tbody");
   tr(tbody, `SLOT : ${charactor.Slot}`);
-  tr(tbody, `NAME : ${charactor.Name}`);
+  tr(tbody, `名字 : ${charactor.Name}`);
   tr(tbody, `GUILD CARD : ${charactor.GuildCardNumber}`);
-  tr(tbody, `CLASS : ${charactor.Class}`);
+  tr(tbody, `种族 : ${charactor.Class}`);
   tr(tbody, `SECTION ID : ${charactor.SectionID}`);
-  tr(tbody, `LEVEL : ${charactor.Level}`);
+  tr(tbody, `等级 : ${charactor.Level}`);
   tr(tbody, `EP1 CHALLENGE : ${charactor.Ep1Progress}`);
   tr(tbody, `EP2 CHALLENGE : ${charactor.Ep2Progress}`);
   table.appendChild(tbody);
   id.appendChild(table);
 
 
-  displayInventory(charactor.Inventory[this.lang], "INVENTORY")
-  displayInventory(charactor.Bank[this.lang], "BANK")
+  displayInventory(charactor.Inventory[this.lang], "随身携带")
+  displayInventory(charactor.Bank[this.lang], "个人仓库")
 }
 
 function tr(tbody, text)
@@ -98,7 +98,7 @@ function displayShareBank(shareBank, title)
 {
   let id = document.getElementById("data");
   id.innerHTML = '';
-  displayInventory(shareBank.ShareBank[this.lang], "SHARE BANK")
+  displayInventory(shareBank.ShareBank[this.lang], "共享仓库")
 }
 
 function displayInventory(inventory, title, mode)
@@ -180,7 +180,7 @@ function displayPager()
       button.setAttribute('class', "pager");
       button.setAttribute('name', i);
       button.setAttribute('onclick', 'clickShareBank(name)');
-      button.innerText = "ShareBank";
+      button.innerText = "共享仓库";
       id.appendChild(button);
     }
   }
@@ -193,7 +193,7 @@ function displayPager()
     button.setAttribute('class', "pager");
     button.setAttribute('name', "allItems");
     button.setAttribute('onclick', 'clickAllItems(name)');
-    button.innerText = "AllItems";
+    button.innerText = "所有物品";
     id.appendChild(button);
   }
 }

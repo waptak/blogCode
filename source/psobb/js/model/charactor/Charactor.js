@@ -48,11 +48,11 @@ class Charactor extends Abstract {
       // キャラクターの所持品をセット
       this.setInventory(charactorData.slice(20, 860), this.Inventory, 30, 28, slot, "EN");
       // キャラクター倉庫アイテムをセット
-      this.setInventory(charactorData.slice(1800, 6600), this.Bank, 200, 24, `${slot} Bank`, "EN");
+      this.setInventory(charactorData.slice(1800, 6600), this.Bank, 200, 24, `${slot} 个人仓库`, "EN");
       // キャラクターの所持品をセット
       this.setInventory(charactorData.slice(20, 860), this.Inventory, 30, 28, slot, "JA");
       // キャラクター倉庫アイテムをセット
-      this.setInventory(charactorData.slice(1800, 6600), this.Bank, 200, 24, `${slot} Bank`, "JA");
+      this.setInventory(charactorData.slice(1800, 6600), this.Bank, 200, 24, `${slot} 个人仓库`, "JA");
   }
 
   setSlot(slot)

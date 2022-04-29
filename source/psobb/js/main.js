@@ -76,8 +76,8 @@ function changeLang()
     id.innerHTML = '';
 
     if (currentpage === "itemcode") displayItemCodes();
-    if (currentpage === "shareBanks") displayInventory(this.shareBanks[0].ShareBank[this.lang], "SHARE BANK");
-    if (currentpage === "allItems") displayInventory(this.allItems[this.lang], "ALL ITEMS", "allItems");
+    if (currentpage === "shareBanks") displayInventory(this.shareBanks[0].ShareBank[this.lang], "共享仓库");
+    if (currentpage === "allItems") displayInventory(this.allItems[this.lang], "所有物品", "allItems");
     if (currentpage === "search") {
       let tmp = [];
       this.searchResults.forEach((value) => {
@@ -117,7 +117,7 @@ function decoder()
     // 共有倉庫ファイルをデコード
     if (fileData[i]["filename"].match(/psobank/) !== null)
     {
-      let shareBank = new ShareBank(binary, "Share Bank");
+      let shareBank = new ShareBank(binary, "共享仓库");
       shareBanks.push(shareBank);
       allItems["EN"] = allItems["EN"].concat(shareBank.ShareBank["EN"]);
       allItems["JA"] = allItems["JA"].concat(shareBank.ShareBank["JA"]);
@@ -241,7 +241,7 @@ function clickShareBank(name)
   localStorage.setItem("currentpage", JSON.stringify("shareBanks"));
   let id = document.getElementById("data");
   id.innerHTML = '';
-  displayInventory(this.shareBanks[name].ShareBank[this.lang], "SHARE BANK")
+  displayInventory(this.shareBanks[name].ShareBank[this.lang], "共享仓库")
 }
 
 function clickAllItems(name)
@@ -250,7 +250,7 @@ function clickAllItems(name)
   localStorage.setItem("currentpage", JSON.stringify("allItems"));
   let id = document.getElementById("data");
   id.innerHTML = '';
-  displayInventory(this.allItems[this.lang], "ALL ITEMS", "allItems")
+  displayInventory(this.allItems[this.lang], "所有物品", "allItems")
 }
 
 // FileListをファイル名の照準にする

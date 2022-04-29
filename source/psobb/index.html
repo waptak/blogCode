@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>PSOBB Character Item Viewer</title>
+  <title>PSOBB 角色物品查看</title>
   <meta http-equiv="content-type" content="text/html" charset="UTF-8">
   <meta name="keywords" content="PSO,PSOBB,Ephinea,tool">
   <meta name="description" content="PSOBBの所有キャラクターとアイテムを閲覧できます。 View characters and items owned by PSOBB.">
@@ -26,12 +26,12 @@
 
     <div class="input">
         <div class="desc" id="desc">
-          上传数据文件 (.psochar and .psobank)
+          上传数据文件 (.psochar and .psobank，可多选)。
           <a class="download" href="https://ephinea.pioneer2.net/download-data/" target="_blank">从E服下载</a>
         </div>
           <input type="file" id="inputb" name="file[]" multiple onchange=clickInput(event)>
     </div>
-
+    <hr />
     <div class="sticky">
       <div class="lang" id="radio">
         <button type="button" id="langb" onClick=clickDisplayItemCodes(event)>物品代码</button>
@@ -47,10 +47,10 @@
           <input type="checkbox" class="" name="types" value="3" >盾
           <input type="checkbox" class="" name="types" value="4" >插件
           <input type="checkbox" class="" name="types" value="5" >马古
-          <input type="checkbox" class="" name="types" value="6" >Disks
+          <input type="checkbox" class="" name="types" value="6" >魔法光盘
           <input type="checkbox" class="" name="types" value="7" >Tools
-          <input type="checkbox" class="" name="types" value="8" >S-Ranks
-          <input type="checkbox" class="" name="types" value="9" >Other
+          <input type="checkbox" class="" name="types" value="8" >S武器
+          <input type="checkbox" class="" name="types" value="9" >其他
         </div>
         <div class="wordsearches">
           <div class="sep"><input type="text" class="word" name="word" placeholder="输入道具名"></div>
