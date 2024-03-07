@@ -69,7 +69,7 @@ tags: [AI,LanChain,ChatGLM3]
         "host": "0.0.0.0",
         "port": 7861,
     }
-
+    ```
 ## 运行
 * 初始化知识库
   ```bash
