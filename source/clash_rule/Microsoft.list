@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,clarity.ms
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
