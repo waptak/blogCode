@@ -34,3 +34,6 @@ DOMAIN,api.ipify.org
 DOMAIN,net.coffee
 DOMAIN,stun.cloudflare.com
 DOMAIN,stun.l.google.com
+GEOSITE,anthropic
+DOMAIN-KEYWORD,sentry
+GEOSITE,category-ntp
