@@ -1,0 +1,63 @@
+# NAME: PayPal
+# DOMAIN-SUFFIX: 35
+# DOMAIN-KEYWORD: 1
+# IP-CIDR: 9
+# IP-ASN: 1
+# GEOSITE: 1
+# TOTAL: 47
+
+# --- PayPal 核心与官方辅助域名 ---
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,py.pl
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypal-communication.com
+DOMAIN-SUFFIX,paypal-corp.com
+DOMAIN-SUFFIX,paypalcorp.com
+DOMAIN-SUFFIX,paypal-status.com
+DOMAIN-SUFFIX,paypal-notice.com
+DOMAIN-SUFFIX,paypalservice.com
+DOMAIN-SUFFIX,paypalhere.com
+# 国区域名（若使用大陆贝宝需直连，请删除下面两行及下方的 DOMAIN-KEYWORD,paypal）
+DOMAIN-SUFFIX,paypal.cn
+DOMAIN-SUFFIX,paypal.com.cn
+# 关键字兜底（覆盖 paypal.hk / paypal.jp / paypal.co.uk 等多国后缀）
+DOMAIN-KEYWORD,paypal
+
+# --- 支付网关、3DS 安全验证与风控引擎 (Braintree / Cardinal / Simility) ---
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,braintreeps.com
+DOMAIN-SUFFIX,getbraintree.com
+DOMAIN-SUFFIX,card.io
+DOMAIN-SUFFIX,cardinalcommerce.com
+DOMAIN-SUFFIX,simility.com
+
+# --- PayPal 旗下子品牌生态 (Venmo / Hyperwallet / Xoom / Honey / Zettle / Paidy 等) ---
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,venmo-touch.com
+DOMAIN-SUFFIX,hyperwallet.com
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,xoom.io
+DOMAIN-SUFFIX,joinhoney.com
+DOMAIN-SUFFIX,zettle.com
+DOMAIN-SUFFIX,izettle.com
+DOMAIN-SUFFIX,paidy.com
+DOMAIN-SUFFIX,loanbuilder.com
+DOMAIN-SUFFIX,swiftcapital.com
+DOMAIN-SUFFIX,billmelater.com
+DOMAIN-SUFFIX,paydiant.com
+
+# --- PayPal 官方 IPv4 段 ---
+IP-CIDR,64.4.240.0/21,no-resolve
+IP-CIDR,64.4.248.0/22,no-resolve
+IP-CIDR,66.211.168.0/22,no-resolve
+IP-CIDR,91.243.72.0/23,no-resolve
+IP-CIDR,173.0.80.0/20,no-resolve
+IP-CIDR,185.177.52.0/22,no-resolve
+IP-CIDR,192.160.215.0/24,no-resolve
+IP-CIDR,198.54.216.0/23,no-resolve
+IP-CIDR,216.136.236.0/22,no-resolve
+
